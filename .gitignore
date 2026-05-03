@@ -1,0 +1,30 @@
+# Backend
+costMoneyApp-backend/target/
+costMoneyApp-backend/logs/
+costMoneyApp-backend/*.log
+costMoneyApp-backend/.mvn/
+costMoneyApp-backend/mvnw
+costMoneyApp-backend/mvnw.cmd
+
+# Frontend
+costMoneyApp/node_modules/
+costMoneyApp/dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Claude
+.claude/
