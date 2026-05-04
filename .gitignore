@@ -5,6 +5,7 @@ costMoneyApp-backend/*.log
 costMoneyApp-backend/.mvn/
 costMoneyApp-backend/mvnw
 costMoneyApp-backend/mvnw.cmd
+**/target/
 
 # Frontend
 costMoneyApp/node_modules/
@@ -28,3 +29,6 @@ Thumbs.db
 
 # Claude
 .claude/
+
+# Old monolith (kept for reference, not built)
+costMoneyApp-backend/target/
